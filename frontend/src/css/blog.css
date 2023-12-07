@@ -1,0 +1,31 @@
+.blog-date {
+  color: #6941c6;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.blog-title{
+    font-size: 20px;
+}
+
+.blog-description {
+    color: gray;
+    font-weight: 100;
+}
+
+.tags ul {
+    list-style-type: none;
+    margin-left: 0px !important;
+    padding-left: 0px;
+    font-size: 10px;
+    color: #6941c6;
+   
+}
+
+.tags ul li {
+    background-color: #d0bcff;
+    padding: 2px 5px;
+    border-radius: 100px;
+}
+
+

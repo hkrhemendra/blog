@@ -1,0 +1,27 @@
+* {
+  font-family: "Verdana", sans-serif;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: end;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 15vh;
+    font-weight: bold;
+}
+
+.page-item a {
+  color: gray;
+}
+
+.pagination .active a {
+  background-color: gainsboro;
+  border: none
+}
