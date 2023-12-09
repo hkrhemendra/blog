@@ -6,9 +6,9 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg bg-white">
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             The Blog
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -28,8 +28,13 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/blog-detail">
-                  Link
+                <Link className="nav-link" to="/write-blog">
+                  Write Blog
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/login">
+                  Login
                 </Link>
               </li>
               <li className="nav-item">

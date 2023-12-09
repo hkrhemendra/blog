@@ -6,10 +6,10 @@ import Pagination from "./Pagination";
 const Blogs = () => {
   const tags = ["Design", "Research", "Presentation"];
   return (
-    <div class="container my-5">
+    <div className="container my-5">
       <SectionTitle title={"All blog posts"} />
-      <div class="row row-cols-3 my-5">
-        <div class="col">
+      <div className="row row-cols-3 my-5">
+        <div className="col">
           <BlogCard
             title={"Building your API Stack"}
             author={"Lana Steiner"}
@@ -22,7 +22,7 @@ const Blogs = () => {
             orientation={"vertical"}
           />
         </div>
-        <div class="col">
+        <div className="col">
           <BlogCard
             title={"Building your API Stack"}
             author={"Lana Steiner"}
@@ -35,7 +35,7 @@ const Blogs = () => {
             orientation={"vertical"}
           />
         </div>
-        <div class="col">
+        <div className="col">
           <BlogCard
             title={"Building your API Stack"}
             author={"Lana Steiner"}
@@ -48,7 +48,7 @@ const Blogs = () => {
             orientation={"vertical"}
           />
         </div>
-        <div class="col">
+        <div className="col">
           <BlogCard
             title={"Building your API Stack"}
             author={"Lana Steiner"}
@@ -61,7 +61,7 @@ const Blogs = () => {
             orientation={"vertical"}
           />
         </div>
-        <div class="col">
+        <div className="col">
           <BlogCard
             title={"Building your API Stack"}
             author={"Lana Steiner"}
@@ -74,7 +74,7 @@ const Blogs = () => {
             orientation={"vertical"}
           />
         </div>
-        <div class="col">
+        <div className="col">
           <BlogCard
             title={"Building your API Stack"}
             author={"Lana Steiner"}

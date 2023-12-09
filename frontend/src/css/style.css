@@ -25,3 +25,12 @@
   background-color: gainsboro;
   border: none
 }
+
+.text-sm {
+  font-size: 12px;
+}
+
+.btn-link{
+  background-color: transparent;
+  border: none;
+}

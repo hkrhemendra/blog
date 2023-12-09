@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogCard = ({
   author,
@@ -9,10 +10,7 @@ const BlogCard = ({
   orientation,
   img,
 }) => {
-  console.log(orientation);
-
   orientation = orientation ? orientation : "vertical";
-  console.log(orientation);
   return (
     <div
       className={
@@ -32,13 +30,13 @@ const BlogCard = ({
         </div>
         <div className="d-flex justify-content-between align-items-center gap-2">
           <div className="blog-title my-2">{title}</div>
-          <i class="ri-arrow-right-up-line fw-bold"></i>
+          <Link to={'/blog-detail'} ><i className="ri-arrow-right-up-line fw-bold"></i></Link>
         </div>
         <div className="blog-description my-2">{description}</div>
         <div className="tags">
           <ul className="d-flex gap-2">
             {tags.map((ele) => (
-              <li>{ele}</li>
+              <li key={ele} >{ele}</li>
             ))}
           </ul>
         </div>
